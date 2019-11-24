@@ -6,6 +6,7 @@ const {
     Alert,
     AppState
 } = require("react-native");
+const NetInfo = require("@react-native-community/netinfo");
 const localStorage = require('react-native-sync-localstorage');
 
 let currentUrl = '';
